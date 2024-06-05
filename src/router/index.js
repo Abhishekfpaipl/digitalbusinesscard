@@ -1,12 +1,16 @@
-import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../views/HomeView.vue";
+import { createRouter, createWebHistory } from "vue-router"; 
 
 const routes = [
   {
-    path: "/",
-    name: "home",
-    component: HomeView,
+    path: "/digital-card",
+    name: "DigitalCard",
+    component: () => import('@/pages/DigitalCard.vue')
   },
+  {
+    path:"/",
+    name:'Dashboard',
+    component:()=> import('@/pages/Dashboard.vue')
+  }
 ];
 
 const router = createRouter({
