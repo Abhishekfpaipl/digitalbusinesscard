@@ -3,7 +3,7 @@
     <div class="border rounded-5 mt-2 mx-2">
 
       <div class="position-relative">
-        <div class="d-flex justify-content-between align-items-center px-2 bg-light rounded-top-3">
+        <div class="d-flex justify-content-between align-items-center px-3 bg-light rounded-top-5">
           <span @click="saveContact">
             <small class="me-2">Save</small>
             <i class="bi bi-download fs-4"></i>

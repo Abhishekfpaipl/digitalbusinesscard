@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router"; 
+import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   {
@@ -7,10 +7,15 @@ const routes = [
     component: () => import('@/pages/DigitalCard.vue')
   },
   {
-    path:"/",
-    name:'Dashboard',
-    component:()=> import('@/pages/Dashboard.vue')
-  }
+    path: "/",
+    name: 'Dashboard',
+    component: () => import('@/pages/Dashboard.vue')
+  },
+  {
+    path: "/landing",
+    name: 'LandingPage',
+    component: () => import('@/pages/LandingPage.vue')
+  },
 ];
 
 const router = createRouter({
