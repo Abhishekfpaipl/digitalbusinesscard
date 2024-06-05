@@ -1,18 +1,39 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <TopNav />
+    <TopSection />
+    <!-- <MapSection/> -->
+    <CollectionSection />
+    <AboutSection />
+    <BrandSection />
+    <SocialSchedule />
+    <GalleryCollage/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+
+import TopNav from '@/components/TopNav.vue'
+import TopSection from '@/components/TopSection.vue'
+// import MapSection from '@/components/MapSection.vue'
+import CollectionSection from '@/components/CollectionSection.vue'
+import AboutSection from '@/components/AboutSection.vue';
+import BrandSection from '@/components/BrandSection.vue';
+import SocialSchedule from '@/components/SocialSchedule.vue';
+import GalleryCollage from '@/components/GalleryCollage.vue';
 
 export default {
   name: "HomeView",
   components: {
-    HelloWorld,
-  },
+    TopSection,
+    TopNav,
+    // MapSection,
+    CollectionSection,
+    AboutSection,
+    BrandSection,
+    SocialSchedule,
+    GalleryCollage
+  }
+
 };
 </script>
