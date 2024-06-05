@@ -32,6 +32,10 @@
                     </div>
                 </div>
             </div>
+            <div class="d-flex justify-content-center my-3 px-2 gap-2">
+                <router-link to="/digital-card" class=" text-center w-50 btn btn-dark">Login</router-link>
+                <router-link to="/register" class=" text-center w-50 btn btn-dark">Sign Up</router-link>
+            </div>
         </div>
 
         <div class="my-3">
@@ -139,7 +143,7 @@
                         </router-link>
                         <span class="gg text-style position-absolute" style="top: -9px; left: 5px; font-size: 45px;">{{
                             vote.id
-                            }}</span>
+                        }}</span>
                     </div>
                 </div>
             </div>

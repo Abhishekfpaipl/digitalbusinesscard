@@ -11,9 +11,9 @@
             </div>
             <div class="mb-3">
                 <p class="mb-2 fw-bold">Contact Us</p>
-                <p class="mb-2">Email : support@wsgbrand.in</p>
-                <p class="mb-2">Mob no. : 9999437620</p>
-                <p class="mb-2">Address : B-74, Okhla Phase-II,<br> New Delhi - 110020, Delhi, India</p>
+                <p class="mb-2">Email : support@covisor.in</p>
+                <p class="mb-2">Mob no. : 8860012001</p>
+                <p class="mb-2">Address :  2nd Floor, Block B1/632, <br> Janakpuri, 110058, Delhi, India</p>
             </div>
             <div class="mb-3">
                 <p class="mb-2 fw-bold">Reach Us</p>
@@ -32,12 +32,12 @@
             </div>
             <div class="mb-3">
                 <p class="mb-2 fw-bold">Resources</p>
-                <router-link to="/get-support" class="text-dark" style="text-decoration: none;">
-                    <p class="mb-2">Get Support</p>
+                <router-link to="/legal-warning" class="text-dark" style="text-decoration: none;">
+                    <p class="mb-2">Legal Warning</p>
                 </router-link>
-                <router-link to="/faq" class="text-dark" style="text-decoration: none;">
+                <!-- <router-link to="/faq" class="text-dark" style="text-decoration: none;">
                     <p class="mb-2">Ask Faqs</p>
-                </router-link>
+                </router-link> -->
                 <router-link to="/privacy-policy" class="text-dark" style="text-decoration: none;">
                     <p class="mb-2">Privacy Policy</p>
                 </router-link>
