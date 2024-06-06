@@ -7,18 +7,20 @@
             <div class="d-flex flex-column justify-content-center align-items-center pt-5">
                 <div class="text-center">
                     <img src="img/wb.png" style="filter: brightness(0) invert(1);" width="115" alt="">  
-                    <p class="fs-1 text-white fw-bold m-0 ">WSG Brand</p>
+                    <p class="fs-1 text-white fw-bold m-0 ">R2L</p>
                 </div>
-                <h1 class="text-center text-white mt-3">India's largest B2B Platform for <br> businesses & shop-owners</h1>
-                <RouterLink to="/LoginPage">
-                    <div class="btn btn-light text-danger my-4 fs-5 fw-bold">
+                <h3 class="text-center text-white mt-3">Your Smart Digital Presence. <br>Will Insprie your clients in a smarter way.</h3>
+                <RouterLink to="/digital-card">
+                    <div class="btn btn-light rounded-5 text-danger my-4 fs-5 fw-bold">
                         Get Started 
                     </div>
                 </RouterLink>
                 <a href="#second"><i class="bi bi-chevron-down fs-1 text-white"></i></a>
             </div>
             <div class="d-flex justify-content-center align-items-center pt-5">
-                <img src="img/laptop.png" width="800" style="max-width:80%; ">
+                <div class="bg-white rounded-circle" style="width:800px; max-width:50%">
+                    <img src="img/landinglogo.png" class="w-100" >
+                </div>
             </div>
         </div> 
     </div>

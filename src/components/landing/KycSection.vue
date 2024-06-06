@@ -40,8 +40,8 @@ export default {
                 {
                     id: 3,
                     img: 'img/2.png', 
-                    head: 'Start Selling',
-                    text: 'Start receiving orders'
+                    head: 'Share with Worldwide',
+                    text: 'through a variety of channels'
                 },
             ],
         }

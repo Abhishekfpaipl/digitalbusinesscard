@@ -1,19 +1,18 @@
 <template>
     <div>
-        <div class="text-center my-5" id="second">
-            <h1 class="text-center py-5 container">Select Your Partnership Mode</h1>
-            <div class="row m-0 gy-2">
-                <div v-for="(text, index) in texts" :key="index" class="col-12 col-lg-4">
-                    <RouterLink :to="'/registraion/' + text.name" class="text-decoration-none">
-                        <div class="card p-3 my-card text-decoration-none">
-                            <div class="fs-3">
-                                <i class="fs-2 me-2" :class="text.icon"></i> {{ text.name }}
-                            </div>
-                        </div>
-                    </RouterLink>
+        <div class="container text-center my-5">
+            <div class="py-2">
+                <h1 class="text-center">We Would like to Serve to All</h1>
+                <small>We are loved by all types of people across all industries</small>
+            </div>
+            <div class="row m-0 gy-2 text-center">
+                <div v-for="(text, index) in texts" :key="index" class="col-6 col-xl-4">
+                    <div class="card fs-6 p-3 my-card text-decoration-none">
+                        {{ text.name }}
+                    </div>
                 </div>
             </div>
-        </div>
+        </div> 
     </div>
 </template>
 <script>
@@ -23,22 +22,63 @@ export default {
         return {
             texts: [
                 {
-                    icon: 'bi bi-star',
-                    name: 'Brand Owner',
+                    // icon: 'bi bi-star',
+                    name: 'Freelancers',
                 },
                 {
-                    icon: 'bi bi-buildings',
-                    name: 'Manufacturer',
+                    // icon: 'bi bi-building',
+                    name: 'Business',
                 },
                 {
-                    icon: 'bi bi-shop-window',
-                    name: 'Market Seller',
-                }
+                    // icon: 'bi bi-shop-window',
+                    name: 'Students',
+                },
+                {
+                    // icon: 'bi bi-shop-window',
+                    name: 'Influencers',
+                },
+                {
+                    // icon: 'bi bi-shop-window',
+                    name: 'Politicians',
+                },
+                {
+                    // icon: 'bi bi-shop-window',
+                    name: 'Celebrities',
+                },
+                {
+                    // icon: 'bi bi-shop-window',
+                    name: 'Shopkeepers',
+                },
+                {
+                    // icon: 'bi bi-shop-window',
+                    name: 'Govt. Employee',
+                },
+                {
+                    // icon: 'bi bi-shop-window',
+                    name: 'Private Employee',
+                },
+                {
+                    // icon: 'bi bi-shop-window',
+                    name: 'Proffesional',
+                },
+                {
+                    // icon: 'bi bi-shop-window',
+                    name: 'Service Providers',
+                },
             ]
         }
     }
 }
 </script>
-<style lang="">
+<style scoped>
+.my-card {
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
 
+.my-card:hover {
+    color: red;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
 </style>

@@ -1,13 +1,19 @@
 <template>
-  <div class="container">
-    <div class="wrap-slider" ref="wrapSlider">
-      <ul class="js-slider">
-        <li class="item" v-for="(link, index) in links" :key="index">
-          <a :href="link.href" :class="{ 'hop': link.class === 'hop' }">
-            <img :src="link.text" alt="">
-           </a>
-        </li>
-      </ul>
+  <div class="">
+    <div class="d-flex flex-column align-items-center justify-content-center px-2">
+      <h4 class="text-center">5,000,000+ <br>interaction powered by Spreadly</h4>
+      <small>Teams worldwide rely on Spreadly for a sustainable and modern way of networking</small>
+    </div>
+    <div class="container">
+      <div class="wrap-slider" ref="wrapSlider">
+        <ul class="js-slider">
+          <li class="item" v-for="(link, index) in links" :key="index">
+            <a :href="link.href" :class="{ 'hop': link.class === 'hop' }">
+              <img :src="link.text" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
@@ -161,8 +167,8 @@ export default {
           // background-image: url(https://media.giphy.com/media/3o85xoi6nNqJQJ95Qc/giphy.gif);
           background-size: cover;
           background-position: center;
-          text-indent: -99999px;
-          background-color: transparent;
+          text-indent: 30%;
+          background-color: white;
         }
 
         &:hover,
