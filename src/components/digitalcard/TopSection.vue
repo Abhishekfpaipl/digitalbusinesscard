@@ -1,32 +1,29 @@
 <template>
   <div class="">
-    <div class="border rounded-5 mt-2 mx-2">
-
+    <div class="border rounded-5 mx-2 shadow">
       <div class="position-relative">
-        <div class="d-flex justify-content-between align-items-center px-3 bg-light rounded-top-5">
-          <span @click="saveContact">
-            <small class="me-2">Save</small>
+        <div class="d-flex justify-content-between align-items-center px-3 rounded-top-5">
+          <span @click="saveContact" class="d-flex flex-column align-items-center">
             <i class="bi bi-download fs-4"></i>
+            <small class="">Save</small>
           </span>
-          <span @click="share">
+          <span @click="share" class="d-flex flex-column align-items-center">
             <i class="bi bi-share fs-4"></i>
             <small class="ms-2">Share</small>
           </span>
         </div>
         <div class="rounded-circle position-absolute shadow end-50" style="width:60px;height: 60px;top: -60px;">
-          <img src="https://cdn.bhybrid.org/imgcdn/20230708200505/card/p1109photo.jpg" alt="Logo" class="rounded-circle"
-            style="width: 100px;">
+          <img src="https://cdn.bhybrid.org/imgcdn/20230708200505/card/p1109photo.jpg" alt="Logo"
+            class="rounded-3 border border-dark" style="width: 100px;">
         </div>
       </div>
-
       <div class="d-flex flex-column align-items-center my-2">
         <h3>Business Name</h3>
         <small class="">Sales assistant</small>
         <small class="">B2B service</small>
         <small class="">Bhybrid by Onhoff</small>
       </div>
-
-      <div class="mt-4">
+      <!-- <div class="mt-4">
         <div class="container my-2">
           <div class="row justify-content-center">
             <div v-for="(icon, index) in contact" :key="index" class="col-4 d-flex flex-column align-items-center my-2"
@@ -39,7 +36,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
 
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasQuery" aria-labelledby="offcanvasQueryLabel">
@@ -69,7 +66,7 @@
         </form>
       </div>
     </div>
- 
+
   </div>
 </template>
 

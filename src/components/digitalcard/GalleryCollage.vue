@@ -1,7 +1,10 @@
 <template>
-    <div class="container" id="imageCollage" ref="imageCollage">
-        <div class="collageImage border" v-for="(image, index ) in images" :key="index">
-            <img :src="image.src" :alt="image.alt" >
+    <div class="my-3 py-3">
+        <p class="px-2 py-3 text-center mb-0 bill"><span class="fs-2">~ Gallery ~</span></p>
+        <div class="container" id="imageCollage" ref="imageCollage">
+            <div class="collageImage border" v-for="(image, index ) in images" :key="index">
+                <img :src="image.src" :alt="image.alt">
+            </div>
         </div>
     </div>
 </template>
@@ -24,7 +27,7 @@ export default {
                 { src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJOen3c9HwoWLwXEuW-cLMdP-RYRGou7vohg&s', alt: 'Image 9' },
             ],
             publicPath: process.env.BASE_URL,
-        }; 
+        };
     },
     created() {
         this.initMasonry();

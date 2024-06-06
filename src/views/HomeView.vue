@@ -14,13 +14,13 @@
 <script>
 
 import TopNav from '@/components/TopNav.vue'
-import TopSection from '@/components/TopSection.vue'
+import TopSection from '@/components/digitalcard/TopSection.vue'
 // import MapSection from '@/components/MapSection.vue'
-import CollectionSection from '@/components/CollectionSection.vue'
-import AboutSection from '@/components/AboutSection.vue';
-import BrandSection from '@/components/BrandSection.vue';
-import SocialSchedule from '@/components/SocialSchedule.vue';
-import GalleryCollage from '@/components/GalleryCollage.vue';
+import CollectionSection from '@/components/digitalcard/CollectionSection.vue'
+import AboutSection from '@/components/digitalcard/InfoSection.vue';
+import BrandSection from '@/components/digitalcard/GroupsSection.vue';
+import SocialSchedule from '@/components/digitalcard/SocialSchedule.vue';
+import GalleryCollage from '@/components/digitalcard/GalleryCollage.vue';
 
 export default {
   name: "HomeView",

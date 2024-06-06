@@ -1,9 +1,7 @@
 <template>
-    <div class="container my-3">
-        <p class="p-2 text-center mb-0 bill"><span class="fs-2">~ Memberships ~</span></p>
-        <div class="mb-5">
-            <TeamBanner />
-        </div>
+    <div class="container my-3 py-3">
+        <p class="px-2 py-3 text-center mb-0 bill"><span class="fs-2">~ Groups ~</span></p>
+        <TeamBanner />
     </div>
 </template>
 <script>
